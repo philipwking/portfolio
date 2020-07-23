@@ -18,16 +18,16 @@ function App() {
               <Heading size={800}>
                 phil
               </Heading>
-              <a href='https://www.linkedin.com/in/philip-king-0a80239b/'>
+              <Link href='https://www.linkedin.com/in/philip-king-0a80239b/'>
                 <Button marginLeft={50} appearance='minimal'>
                   LinkedIn
                </Button>
-              </a>
-              <a href={'https://github.com/philipwking'}>
+              </Link >
+              <Link href={'https://github.com/philipwking'}>
                 <Button marginLeft={30} appearance='minimal'>
                   Github
                 </Button>
-              </a>
+              </Link >
             </Pane>
           </Pane>
           <Pane display='flex' flexDirection={'column'} padding={10}>
@@ -48,17 +48,17 @@ function App() {
                 I am currently working mostly in the MERN stack and have experience with MySql, multiple CSS frameworks (Bootstrap, Material.ui, Bulma), and a lot of Node packages.
               </Paragraph>
               <Pane padding={20}>
-                <a href={'mailto:philipwking@gmail.com'}>
+                <Link href={'mailto:philipwking@gmail.com'}>
                   <Button appearance='primary' margin={10}>
                     <EnvelopeIcon margin={5}></EnvelopeIcon>
                     Contact
                 </Button>
-                </a>
-                <a href={resume} download="philipsresume.pdf" >
+                </Link >
+                <Link href={resume} download="philipsresume.pdf" >
                   <Button appearance='minimal' margin={10}>
                     Download my Resume
                   </Button>
-                </a>
+                </Link >
               </Pane>
             </Pane>
 
@@ -69,12 +69,12 @@ function App() {
         </Heading>
             <Pane display='flex' justifyContent='space-evenly' padding={20}>
               <Card>
-                <a href={'https://winrate-gg.herokuapp.com/'}>
+                <Link href={'https://winrate-gg.herokuapp.com/'}>
                   <Card padding={15} borderRadius={10} elevation={2}>
                     <img height={250} width={350} src={winrate} alt='winrate.gg'>
                     </img>
                   </Card>
-                </a>
+                </Link >
                 <Heading padding={10} size={700}>
                   Winrate.gg
             </Heading>
@@ -112,8 +112,8 @@ function App() {
             <Text color='#E4E7EB'>
               Designed by
             </Text>
-            <Link color='#E4E7EB' paddingLeft={3}>
-              Arix
+            <Link href={"https://www.arixking.com/"} color='#E4E7EB' paddingLeft={3}>
+                Arix
              </Link>
             <Text color='#E4E7EB' paddingLeft={3}>
               , developed by Philip.
@@ -133,16 +133,16 @@ function App() {
               <Heading size={800} marginLeft={120}>
                 phil
               </Heading>
-              <a href={'https://www.linkedin.com/in/philip-king-0a80239b/'}>
+              <Link href={'https://www.linkedin.com/in/philip-king-0a80239b/'}>
                 <Button marginLeft={50} appearance='minimal'>
                   LinkedIn
                </Button>
-              </a>
-              <a href={'https://github.com/philipwking'}>
+              </Link >
+              <Link href={'https://github.com/philipwking'}>
                 <Button marginLeft={30} appearance='minimal'>
                   Github
                 </Button>
-              </a>
+              </Link >
             </Pane>
           </Pane>
           <Pane display='flex' alignItems='center' padding={100}>
@@ -157,17 +157,17 @@ function App() {
                 I am currently working mostly in the MERN stack and have experience with MySql, multiple CSS frameworks (Bootstrap, Material.ui, Bulma), and a lot of Node packages.
           </Paragraph>
               <Pane padding={20}>
-                <a href={`mailto:philipwking@gmail.com`}>
+                <Link href={`mailto:philipwking@gmail.com`}>
                   <Button appearance='primary' margin={10}>
                     <EnvelopeIcon margin={5}></EnvelopeIcon>
                     Contact
                 </Button>
-                </a>
-                <a href={resume} download="philipsresume.pdf" >
+                </Link >
+                <Link href={resume} download="philipsresume.pdf" >
                   <Button appearance='minimal' margin={10}>
                     Download my Resume
                   </Button>
-                </a>
+                </Link >
               </Pane>
             </Pane>
             <Pane elevation={4} padding={15} borderRadius={10} background="greenTint">
@@ -181,12 +181,12 @@ function App() {
         </Heading>
             <Pane display='flex' justifyContent='space-evenly' padding={20}>
                 <Card>
-                <a href={'https://winrate-gg.herokuapp.com/'}>
+                <Link href={'https://winrate-gg.herokuapp.com/'}>
                   <Card padding={15} borderRadius={10} elevation={2}>
                     <img height={250} width={350} src={winrate} alt='winrate.gg'>
                     </img>
                   </Card>
-                </a>
+                </Link >
                   <Heading padding={10} size={700}>
                     Winrate.gg
                 </Heading>
@@ -224,9 +224,9 @@ function App() {
             <Text marginLeft={100} color='#E4E7EB'>
               Designed by
           </Text>
-            <Link color='#E4E7EB' padding={3}>
+            <Link href={'https://www.arixking.com/'} color='#E4E7EB' padding={3}>
               Arix
-          </Link>
+            </Link>
             <Text marginRight='auto' color='#E4E7EB'>
               , developed by Philip.
         </Text>
