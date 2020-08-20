@@ -68,7 +68,7 @@ function App() {
             <Heading marginLeft={150} paddingTop={100} >
               My Work
         </Heading>
-            <Pane display='flex' justifyContent='space-evenly' padding={20}>
+            <Pane display='flex' justifyContent='space-evenly' flexDirection='column' padding={20}>
               <Card>
                 <Link href={'https://winrate-gg.herokuapp.com/'}>
                   <Card padding={15} borderRadius={10} elevation={2}>
