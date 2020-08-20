@@ -89,6 +89,25 @@ function App() {
                   A tool for analyzing your League of Legends performance. Uses RIOT api data.
             </Paragraph>
               </Card>
+              <Card>
+                <Link href={'https://calculator-iota-seven.vercel.app/'}>
+                  <Card padding={15} borderRadius={10} elevation={2}>
+                    <img height={250} width={350} src={calculatorPic} alt='calculator'>
+                    </img>
+                  </Card>
+                </Link >
+                  <Heading padding={10} size={700}>
+                    Simple Calculator
+                </Heading>
+                  <Text padding={10} >
+                    <Badge marginRight={5} color="green" isSolid>HTML</Badge>
+                    <Badge marginRight={5} color="blue" isSolid>CSS</Badge>
+                    <Badge marginRight={5} color="orange" isSolid>React</Badge>
+                  </Text>
+                  <Paragraph padding={10} width={350}>
+                    Crunch some numbers with this simple calculator!
+                </Paragraph>
+                </Card>
             </Pane>
           </Pane>
           <Pane background="overlay" >
