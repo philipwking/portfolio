@@ -5,6 +5,7 @@ import profilePic from './images/IMG_0604.JPG'
 import winrate from './images/winrate.png'
 import calculatorPic from './images/calculatorPic.png'
 import resume from './images/newresume.pdf'
+import passwordPic from './images/PASSWORDpic.png'
 import { Breakpoint, BreakpointProvider } from 'react-socks';
 
 
@@ -105,7 +106,26 @@ function App() {
                     <Badge marginRight={5} color="orange" isSolid>React</Badge>
                   </Text>
                   <Paragraph padding={10} width={350}>
-                    Crunch some numbers with this simple calculator!
+                    Crunch some numbers with this simple calculator.
+                </Paragraph>
+                </Card>
+                <Card>
+                <Link href={'https://password-generator-psi-flame.vercel.app/'}>
+                  <Card padding={15} borderRadius={10} elevation={2}>
+                    <img height={250} width={350} src={passwordPic} alt='password'>
+                    </img>
+                  </Card>
+                </Link >
+                  <Heading padding={10} size={700}>
+                    Custom Password Generator
+                </Heading>
+                  <Text padding={10} >
+                    <Badge marginRight={5} color="green" isSolid>HTML</Badge>
+                    <Badge marginRight={5} color="blue" isSolid>CSS</Badge>
+                    <Badge marginRight={5} color="orange" isSolid>React</Badge>
+                  </Text>
+                  <Paragraph padding={10} width={350}>
+                    Create a unique password.
                 </Paragraph>
                 </Card>
             </Pane>
@@ -237,6 +257,25 @@ function App() {
                   </Text>
                   <Paragraph padding={10} width={350}>
                     Crunch some numbers with this simple calculator!
+                </Paragraph>
+                </Card>
+                <Card>
+                <Link href={'https://password-generator-psi-flame.vercel.app/'}>
+                  <Card padding={15} borderRadius={10} elevation={2}>
+                    <img height={250} width={350} src={passwordPic} alt='password'>
+                    </img>
+                  </Card>
+                </Link >
+                  <Heading padding={10} size={700}>
+                    Custom Password Generator
+                </Heading>
+                  <Text padding={10} >
+                    <Badge marginRight={5} color="green" isSolid>HTML</Badge>
+                    <Badge marginRight={5} color="blue" isSolid>CSS</Badge>
+                    <Badge marginRight={5} color="orange" isSolid>React</Badge>
+                  </Text>
+                  <Paragraph padding={10} width={350}>
+                    Create a unique password.
                 </Paragraph>
                 </Card>
             </Pane>
