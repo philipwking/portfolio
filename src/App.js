@@ -221,26 +221,6 @@ function App() {
             </Heading>
             <Pane display='flex' justifyContent='space-evenly' padding={20}>
                 <Card>
-                <Link href={'https://winrate-gg.herokuapp.com/'}>
-                  <Card padding={15} borderRadius={10} elevation={2}>
-                    <img height={250} width={350} src={winrate} alt='winrate.gg'>
-                    </img>
-                  </Card>
-                </Link >
-                  <Heading padding={10} size={700}>
-                    Winrate.gg
-                </Heading>
-                  <Text padding={10} >
-                    <Badge marginRight={5} color="green" isSolid>HTML</Badge>
-                    <Badge marginRight={5} color="blue" isSolid>CSS</Badge>
-                    <Badge marginRight={5} color="red" isSolid>MongoDb</Badge>
-                    <Badge marginRight={5} color="orange" isSolid>React</Badge>
-                  </Text>
-                  <Paragraph padding={10} width={350}>
-                    A tool for analyzing your League of Legends performance. Uses RIOT api data.
-                </Paragraph>
-                </Card>
-                <Card>
                 <Link href={'https://calculator-iota-seven.vercel.app/'}>
                   <Card padding={15} borderRadius={10} elevation={2}>
                     <img height={250} width={350} src={calculatorPic} alt='calculator'>
