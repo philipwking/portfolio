@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import { Pane, Button, Text, Heading, Paragraph, Card, EnvelopeIcon, Badge, Link } from 'evergreen-ui'
 import profilePic from './images/IMG_0604.JPG'
-import winrate from './images/winrate.png'
 import calculatorPic from './images/calculatorPic.png'
 import resume from './images/newresume.pdf'
 import passwordPic from './images/PASSWORDpic.png'
@@ -70,27 +69,7 @@ function App() {
               My Work
         </Heading>
             <Pane display='flex' justifyContent='space-evenly' flexDirection='column' padding={20}>
-              <Card>
-                <Link href={'https://winrate-gg.herokuapp.com/'}>
-                  <Card padding={15} borderRadius={10} elevation={2}>
-                    <img height={250} width={350} src={winrate} alt='winrate.gg'>
-                    </img>
-                  </Card>
-                </Link >
-                <Heading padding={10} size={700}>
-                  Winrate.gg
-            </Heading>
-                <Text padding={10} >
-                  <Badge marginRight={5} color="green" isSolid>HTML</Badge>
-                  <Badge marginRight={5} color="blue" isSolid>CSS</Badge>
-                  <Badge marginRight={5} color="red" isSolid>MongoDb</Badge>
-                  <Badge marginRight={5} color="orange" isSolid>React</Badge>
-                </Text>
-                <Paragraph padding={10} width={350}>
-                  A tool for analyzing your League of Legends performance. Uses RIOT api data.
-            </Paragraph>
-              </Card>
-              <Card>
+             <Card>
                 <Link href={'https://calculator-iota-seven.vercel.app/'}>
                   <Card padding={15} borderRadius={10} elevation={2}>
                     <img height={250} width={350} src={calculatorPic} alt='calculator'>
